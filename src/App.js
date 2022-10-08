@@ -73,7 +73,7 @@ const App = () => (
             </Col>
             <Col>
               <Image  fluid='true' src={imagen8} />
-              <div className={styles.titleP}>title project</div>
+              <div className={styles.titleP}>HOlaaa</div>
             </Col>
           </Row>
         </Container>
