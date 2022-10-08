@@ -1,0 +1,91 @@
+
+
+
+.fondo{
+    width: 100vw;
+}
+
+.contenedor1{
+  margin-left: 70%;
+}
+
+.titulo{
+color: white;
+
+}
+
+.contenedor2{
+  margin-top: 10%;
+  margin-left: 50%;
+}
+
+
+.subtitulo{
+    color: black;
+    font-size: smaller;
+    top: 40%;
+}
+
+.columna{
+    margin-top: 5%;
+}
+
+.columnaInfo{
+    padding: auto;
+}
+
+
+
+.hold1{
+    margin-top: 10%;
+}
+.imageHold2{
+    margin-top: 2%;
+}
+
+.columna{
+    padding-top: 2%;
+
+}
+
+.imagenDeFondo {
+    height: 600px;
+    width: 100%;
+    background-image: url("./assets/img/blue_car.jpeg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    position: relative;
+  }
+
+
+
+  .info{
+    color: white;
+    font-size: x-small;
+    margin-top: 50%;
+  
+    }
+
+  .info2{
+    color: white;
+    font-size: x-small;
+    text-decoration: underline;
+    margin-left: 90%;
+    margin-top: 100%;
+
+     
+  
+  }
+
+ 
+
+
+  .titleP{
+    color: white;
+    margin-top:-15% ;
+  }
+
+  .Row{
+    margin-bottom: 4%;
+  }
