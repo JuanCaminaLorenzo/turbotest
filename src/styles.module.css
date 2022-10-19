@@ -89,3 +89,14 @@ color: white;
   .Row{
     margin-bottom: 4%;
   }
+
+  .contenedorGrid{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    grid-template-rows:0.5fr 0.5fr 0.5fr;
+    width: 50%;
+  }
+
+  .item{
+   
+  }

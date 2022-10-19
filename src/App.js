@@ -15,9 +15,8 @@ import imagen6 from './assets/img/red_car.jpeg';
 import imagen7 from './assets/img/bluesky.jpeg';
 import imagen8 from './assets/img/stop_car.jpeg';
 import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
 import Image from 'react-bootstrap/Image';
-import Card from "react-bootstrap/Card";
+
 
 import './App.css';
 
@@ -47,36 +46,14 @@ const App = () => (
 
       </section>
 
-      <Container className={styles.contenedor}>
-          <Row  className={styles.Row}>
-            <Col>
-              <Image  fluid='true'src={imagen3} />
-              <div className={styles.titleP}>title project</div>
-            </Col>
-            <Col className={styles.columnaCentral}>
-              <Image  fluid='true'  src={imagen4} />
-              <div className={styles.titleP}>title project</div>
-            </Col>
-            <Col>
-              <Image     fluid = 'true'src={imagen5} />
-              <div className={styles.titleP}>title project</div>
-            </Col>
-          </Row>
-          <Row className={styles.fila}>
-            <Col>
-              <Image  fluid='true' src={imagen6} />
-              <div className={styles.titleP}>title project</div>
-            </Col>
-            <Col>
-              <Image  fluid='true'  src={imagen7} />
-              <div className={styles.titleP}>title project</div>
-            </Col>
-            <Col>
-              <Image  fluid='true' src={imagen8} />
-              <div className={styles.titleP}>title project</div>
-            </Col>
-          </Row>
-        </Container>
+      <div className={styles.contenedorGrid}>
+        <div className={styles.item}><img src={imagen3} /></div>
+        <div className={styles.item}><img src={imagen4} /></div>
+        <div className={styles.item}><img src={imagen5} /></div>
+        <div className={styles.item}><img src={imagen6} /></div>
+        <div className={styles.item}><img src={imagen7} /></div>
+        <div className={styles.item}><img src={imagen8} /></div>
+      </div>
        
      
          
