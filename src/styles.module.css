@@ -91,12 +91,27 @@ color: white;
   }
 
   .contenedorGrid{
+   width: 100%;
+   margin-left: 20%;
+  }
+
+  .subcontenedorGrid2{
     display: grid;
-    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    grid-template-columns: repeat(auto-fill,240px);
     grid-template-rows:0.5fr 0.5fr 0.5fr;
     width: 50%;
+    align-items: center;
+    
   }
 
   .item{
+  width: 320px;
+  
+   
+  }
+
+  .item img{
+    width: 240px;
+    padding: 3%;
    
   }

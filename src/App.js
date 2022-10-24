@@ -46,14 +46,26 @@ const App = () => (
 
       </section>
 
-      <div className={styles.contenedorGrid}>
-        <div className={styles.item}><img src={imagen3} /></div>
-        <div className={styles.item}><img src={imagen4} /></div>
-        <div className={styles.item}><img src={imagen5} /></div>
-        <div className={styles.item}><img src={imagen6} /></div>
-        <div className={styles.item}><img src={imagen7} /></div>
-        <div className={styles.item}><img src={imagen8} /></div>
-      </div>
+      <section className={styles.contenedorGrid}>
+        <div className={styles.subcontenedorGrid2}>
+            <div className={styles.item}><img src={imagen3} /></div>
+        
+       
+            <div className={styles.item}><img src={imagen4} /></div>
+        
+        
+            <div className={styles.item}><img src={imagen5} /></div>
+        
+     
+            <div className={styles.item}><img src={imagen6} /></div>
+        
+ 
+            <div className={styles.item}><img src={imagen7} /></div>
+    
+     
+            <div className={styles.item}><img src={imagen8} /></div>
+        </div>
+      </section>
        
      
          
