@@ -2,7 +2,7 @@
 
 
 .fondo{
-    width: 100vw;
+    width: 100%;
 }
 
 .contenedor1{
@@ -92,26 +92,27 @@ color: white;
 
   .contenedorGrid{
    width: 100%;
-   margin-left: 20%;
+  
   }
 
   .subcontenedorGrid2{
     display: grid;
-    grid-template-columns: repeat(auto-fill,240px);
-    grid-template-rows:0.5fr 0.5fr 0.5fr;
-    width: 50%;
+    grid-template-columns: repeat(3,320px);
+    grid-template-rows:1fr 1fr 1fr;
+    margin-left: 15%;
     align-items: center;
     
   }
 
   .item{
-  width: 320px;
+
   
    
   }
 
   .item img{
-    width: 240px;
+    width: 320px;
     padding: 3%;
+    object-fit: cover;
    
   }
