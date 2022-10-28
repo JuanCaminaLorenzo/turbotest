@@ -48,22 +48,38 @@ const App = () => (
 
       <section className={styles.contenedorGrid}>
         <div className={styles.subcontenedorGrid2}>
+          <div className={styles.contenedor3}>
             <div className={styles.item}><img src={imagen3} /></div>
-        
+            <div className={styles.textoencima}>Title Project</div>
+          </div>   
        
+          
+          <div className={styles.contenedor3}>
             <div className={styles.item}><img src={imagen4} /></div>
+            <div className={styles.textoencima}>Title Project</div>
+          </div>  
         
-        
+          <div className={styles.contenedor3}>
             <div className={styles.item}><img src={imagen5} /></div>
+            <div className={styles.textoencima}>Title Project</div>
+          </div> 
         
      
+          <div className={styles.contenedor3}>
             <div className={styles.item}><img src={imagen6} /></div>
+            <div className={styles.textoencima}>Title Project</div>
+          </div> 
         
  
+          <div className={styles.contenedor3}>
             <div className={styles.item}><img src={imagen7} /></div>
-    
-     
+            <div className={styles.textoencima}>Title Project</div>
+          </div> 
+
+          <div className={styles.contenedor3}>
             <div className={styles.item}><img src={imagen8} /></div>
+            <div className={styles.textoencima}>Title Project</div>
+          </div> 
         </div>
       </section>
        

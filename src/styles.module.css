@@ -11,12 +11,13 @@
 
 .titulo{
 color: white;
-
+text-align: center;
+margin-top: 10%;
+font-size:xx-large;
 }
 
 .contenedor2{
-  margin-top: 10%;
-  margin-left: 50%;
+ width: 100%;
 }
 
 
@@ -92,7 +93,6 @@ color: white;
 
   .contenedorGrid{
    width: 100%;
-  
   }
 
   .subcontenedorGrid2{
@@ -102,17 +102,30 @@ color: white;
     margin-left: 15%;
     align-items: center;
     
+   
+    
   }
 
   .item{
 
-  
-   
   }
 
   .item img{
     width: 320px;
-    padding: 3%;
+    padding: 2%;
     object-fit: cover;
    
+  }
+
+  .contenedor3{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .textoencima{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
   }
