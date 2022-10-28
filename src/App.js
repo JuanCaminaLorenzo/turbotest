@@ -102,8 +102,8 @@ const App = () => (
             </Container> 
             <Row className={styles.hold1}>
               <Col className={styles.columna}>
-                <h2>Hold on to your butts</h2>
-                <p>Well, the way they make show is, <b>the make one show</b>.that shows called a pilot.Then they show that show to the people who make shows and on the strength of that one show they decide if they 're going to make more shows.Some pilots get picked and become television programs.Some don´t become nothing.She starred in one of the ones that become nothing</p>
+                <h2 className={styles.tituloHold}>Hold on to your butts</h2>
+                <p className={styles.parrafo}>Well, the way they make show is, <b>the make one show</b>.that shows called a pilot.Then they show that show to the people who make shows and on the strength of that one show they decide if they 're going to make more shows.Some pilots get picked and become television programs.Some don´t become nothing.She starred in one of the ones that become nothing</p>
               </Col>
               <Col className={styles.columna}>
                 <div className={styles.imageHold}><Image width={500} fluid = 'true' src={imagen1} /> </div>
@@ -114,8 +114,8 @@ const App = () => (
                 <div className={styles.imageHold2}><Image width={500} fluid ='true'src={imagen2} /> </div>
               </Col>
               <Col className={styles.columna}>
-                <h2>Hold on to your butts</h2>
-                <p>Well, the way they make show is, <b>the make one show</b>.that shows called a pilot.Then they show that show to the people who make shows and on the strength of that one show they decide if they 're going to make more shows.Some pilots get picked and become television programs.Some don´t become nothing.She starred in one of the ones that become nothing</p>
+              <h2 className={styles.tituloHold2}>Hold on to your butts</h2>
+                <p className={styles.parrafo2}>Well, the way they make show is, <b>the make one show</b>.that shows called a pilot.Then they show that show to the people who make shows and on the strength of that one show they decide if they 're going to make more shows.Some pilots get picked and become television programs.Some don´t become nothing.She starred in one of the ones that become nothing</p>
               </Col>
             </Row>
          </Container>

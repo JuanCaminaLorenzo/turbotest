@@ -38,10 +38,11 @@ font-size:xx-large;
 
 
 .hold1{
-    margin-top: 10%;
+    margin-top: -20%;
 }
 .imageHold2{
     margin-top: 2%;
+    margin-left: 20%;
 }
 
 .columna{
@@ -142,4 +143,21 @@ font-size:xx-large;
   }
   .barraContenedor{
     margin-left: 10%;
+  }
+
+  .parrafo{
+    font-size: small;
+    margin-left: 20%;
+    color: gray;
+    line-height : 25px;
+  }
+  .parrafo2{
+    font-size: small;
+    margin-right: 20%;
+    color: gray;
+    line-height : 25px;
+  }
+
+  .tituloHold{
+    margin-left: 20%;
   }
