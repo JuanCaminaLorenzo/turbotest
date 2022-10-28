@@ -16,6 +16,7 @@ import imagen7 from './assets/img/bluesky.jpeg';
 import imagen8 from './assets/img/stop_car.jpeg';
 import Nav from 'react-bootstrap/Nav';
 import Image from 'react-bootstrap/Image';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 
 import './App.css';
@@ -44,6 +45,14 @@ const App = () => (
         </section>
       
 
+      </section>
+      <section>
+        <section className={styles.barra2}>
+          <div className={styles.barraContenedor}>
+            <article className={styles.barra}> Yes or no</article>
+            <article className={styles.barra}>Hold</article>
+          </div>
+        </section>
       </section>
 
       <section className={styles.contenedorGrid}>

@@ -129,3 +129,17 @@ font-size:xx-large;
     left: 10px;
     color: white;
   }
+
+  .barra2{
+    width: 100%;
+    background-color:aliceblue;
+    height: 50px;
+  }
+  .barra{
+    display: inline-block;
+    margin-left: 6%;
+    margin-top: 1%;
+  }
+  .barraContenedor{
+    margin-left: 10%;
+  }
