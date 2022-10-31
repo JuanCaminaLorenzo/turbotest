@@ -161,3 +161,59 @@ font-size:xx-large;
   .tituloHold{
     margin-left: 20%;
   }
+
+  .cont{
+    margin-left: 18%;
+    margin-right: 40%;
+    margin-top: 3%;
+  }
+
+  .titulo2{
+    font-size: x-large;
+  }
+  .subtitulo2{
+    font-size: small;
+    color:gray;
+    margin-top: 2%;
+    margin-bottom: 8%;
+    line-height: 25px;
+  }
+
+  .columna2{
+    margin-left: 60%;
+    margin-top: 15%;
+    
+  }
+  .correo{
+    color:blue;
+  
+  }
+  .telefono{
+    color: blue;
+    
+  }
+  .contact{
+    border-left: thick solid #000;
+    height:25%;
+    
+  }
+  .calle{
+    color: gray;
+    font-size:small;
+    margin-top: 2%;
+
+  }
+  .direccion{
+    color: gray;
+    font-size: small;
+    margin-top: 2%;
+   
+  }
+
+  .home{
+    color: gray;
+  }
+
+  .recomendaciones{
+    color:gray;
+  }

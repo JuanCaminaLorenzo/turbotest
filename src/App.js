@@ -55,6 +55,15 @@ const App = () => (
         </section>
       </section>
 
+
+
+      <section>
+        <div className={styles.cont}>
+            <h1 className={styles.titulo2}>Is she dead, yes or no?</h1> 
+            <p className={styles.subtitulo2}>Well, the way they make show is, the make one show.that shows called a pilot.Then they show that show to the people who make shows and on the strength of that one show they decide if they 're going to make more shows.Some pilots get picked and become television programs.Some don´t become nothing.She starred in one of the ones that become nothing.</p>  
+        </div>     
+      </section>
+
       <section className={styles.contenedorGrid}>
         <div className={styles.subcontenedorGrid2}>
           <div className={styles.contenedor3}>
@@ -119,6 +128,29 @@ const App = () => (
               </Col>
             </Row>
          </Container>
+
+
+         <section className={styles.footer}>
+            <div className={styles.cont2}>
+                <Row className={styles.columna2}>
+                    <Col>
+                      <div className={styles.contact}>CONTACT</div>
+                      <div className={styles.correo}>info@bukyapp.com</div>
+                      <div className={styles.telefono}>+34 722 73 96 22</div>
+                      <div className={styles.calle}>Calle Isaac Peral,39.</div>
+                      <div className={styles.direccion}>35660, Las Palmas</div>
+                    </Col>
+                    <Col>
+                      <div className={styles.contact}>EXPLORA</div>
+                      <div className={styles.home}>Home</div>
+                      <div className={styles.recomendaciones}>Recomendados</div>
+                      <div className={styles.calle}>LA AGENCIA</div>
+                      <div className={styles.direccion}>CONTACTO</div>
+                    </Col>
+                
+                </Row>
+            </div>    
+         </section>
       </div>
    
 );
