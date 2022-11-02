@@ -16,7 +16,8 @@ import imagen7 from './assets/img/bluesky.jpeg';
 import imagen8 from './assets/img/stop_car.jpeg';
 import Nav from 'react-bootstrap/Nav';
 import Image from 'react-bootstrap/Image';
-import AnchorLink from 'react-anchor-link-smooth-scroll'
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+import imagen9 from './assets/img/TT_turbotest.png';
 
 
 import './App.css';
@@ -131,7 +132,10 @@ const App = () => (
 
 
          <section className={styles.footer}>
-            <div className={styles.cont2}>
+              
+              <div className={styles.TT}><img  src={imagen9} /> </div> 
+            
+              <div className={styles.cont2}>
                 <Row className={styles.columna2}>
                     <Col>
                       <div className={styles.contact}>CONTACT</div>
