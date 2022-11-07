@@ -133,10 +133,14 @@ const App = () => (
 
          <section className={styles.footer}>
               
-              <div className={styles.TT}><img  src={imagen9} /> </div> 
+               
             
-              <div className={styles.cont2}>
+              <div class="container-fluid" className={styles.cont2}>
                 <Row className={styles.columna2}>
+                    <Col>
+                          <div className={styles.TT}><img  src={imagen9} /> </div>
+                    </Col>
+
                     <Col>
                       <div className={styles.contact}>CONTACT</div>
                       <div className={styles.correo}>info@bukyapp.com</div>

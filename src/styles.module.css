@@ -180,59 +180,52 @@ font-size:xx-large;
   }
 
   .columna2{
-    margin-left: 40%;
+
     
     }
   .correo{
-    color:blue;
+   
   
   }
   .telefono{
-    color: blue;
+    
     
   }
   .contact{
-    border-left: thick solid #000;
-    height:25%;
+    
     
   }
   .calle{
-    color: gray;
-    font-size:small;
-    margin-top: 2%;
+   
 
   }
   .direccion{
-    color: gray;
-    font-size: small;
-    margin-top: 2%;
+   
    
   }
 
   .home{
-    color: gray;
+    
   }
 
   .recomendaciones{
-    color:gray;
+   
   }
 
   .footer{
-    background-color:#efefef ;
-    opacity: 0.3;
+    background-color:#fbfcfd;
     height: 600px;
+    padding: 10% 25%;
  
   
   }
   .cont2{
-    margin-left: 40%;
-    z-index: 2;
+   
   }
 
 
   .TT{
-    position: relative;
-    margin-top: 20%;
+   
 
   }
   .TT img{
