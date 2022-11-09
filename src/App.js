@@ -85,7 +85,7 @@ const App = () => (
         
      
           <div className={styles.contenedor3}>
-            <div className={styles.item}><img src={imagen6} /></div>
+            <div className={styles.item2}><img src={imagen6} /></div>
             <div className={styles.textoencima}>Title Project</div>
           </div> 
         
@@ -135,29 +135,33 @@ const App = () => (
               
                
             
-              <div class="container-fluid" className={styles.cont2}>
-                <Row className={styles.columna2}>
-                    <Col>
-                          <div className={styles.TT}><img  src={imagen9} /> </div>
-                    </Col>
+              
 
-                    <Col>
-                      <div className={styles.contact}>CONTACT</div>
-                      <div className={styles.correo}>info@bukyapp.com</div>
-                      <div className={styles.telefono}>+34 722 73 96 22</div>
-                      <div className={styles.calle}>Calle Isaac Peral,39.</div>
-                      <div className={styles.direccion}>35660, Las Palmas</div>
-                    </Col>
-                    <Col>
-                      <div className={styles.contact}>EXPLORA</div>
-                      <div className={styles.home}>Home</div>
-                      <div className={styles.recomendaciones}>Recomendados</div>
-                      <div className={styles.calle}>LA AGENCIA</div>
-                      <div className={styles.direccion}>CONTACTO</div>
-                    </Col>
                 
-                </Row>
-            </div>    
+  <div class="row">
+    <div class="col-6">
+        <div className={styles.container}>
+            <div className={styles.TT}><img  src={imagen9} /> </div>
+        </div>
+      
+    </div>
+    <div class="col-3">
+       <div className={styles.contact}>CONTACT</div>
+       <div className={styles.correo}>info@bukyapp.com</div>
+       <div className={styles.telefono}>+34 722 73 96 22</div>
+       <div className={styles.calle}>Calle Isaac Peral,39.</div>
+       <div className={styles.direccion}>35660, Las Palmas</div>
+    </div>
+    <div class="col-3">
+      <div className={styles.Explora}>EXPLORA</div>
+      <div className={styles.home}>Home</div>
+      <div className={styles.recomendaciones}>Recomendados</div>
+      <div className={styles.calle}>LA AGENCIA</div>
+      <div className={styles.direccion}>CONTACTO</div>
+  </div>
+</div>  
+
+        
          </section>
       </div>
    

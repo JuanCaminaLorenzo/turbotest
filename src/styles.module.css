@@ -117,6 +117,13 @@ font-size:xx-large;
     object-fit: cover;
    
   }
+  .item2 img{
+    width: 320px;
+    height: 320px;
+    padding: 2%;
+    object-fit: cover;
+   
+  }
 
   .contenedor3{
     position: relative;
@@ -184,32 +191,28 @@ font-size:xx-large;
     
     }
   .correo{
-   
-  
+    margin-top: 10px;
   }
   .telefono{
-    
-    
+    margin-top: 10px;
   }
-  .contact{
-    
-    
-  }
+  
   .calle{
-   
-
+    margin-top: 10px;
   }
   .direccion{
-   
-   
+    margin-top: 10px;
   }
 
+  .explora{
+    margin-top: 4px;
+  }
   .home{
-    
+    margin-top: 4px; 
   }
 
   .recomendaciones{
-   
+    margin-top: 4px;
   }
 
   .footer{
@@ -225,12 +228,19 @@ font-size:xx-large;
 
 
   .TT{
-   
 
   }
   .TT img{
     width: 320px;
+ 
    
   }
 
+  .info{
   
+  }
+  .container{
+    margin-right: 20%;
+  }
+
+
